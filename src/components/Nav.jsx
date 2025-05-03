@@ -4,9 +4,11 @@ import '../styles/nav.css'
 const Nav = () => {
   return (
     <div>
+      <div class="header">
       <h2>Trabajo Practico N°2 </h2>
       <h4>Comision 2- Grupo 4</h4>
-      <ul>
+      </div>
+      <ul class="navbar">
         <li >
           <a>Home</a>
         </li>

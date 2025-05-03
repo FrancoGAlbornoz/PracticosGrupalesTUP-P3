@@ -1,3 +1,36 @@
 h4{
     color: orange;
 }
+
+
+.textoaside {
+    text-align: center;
+}
+
+.aside {
+    width: 25%;
+
+}
+
+.decoaside {
+    border: dashed 4px red;
+    border-style: dashed dotted solid none;
+    padding: 20px 20px 5px 20px;
+    height: 620px;
+
+}
+
+.h2aside {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.paside {
+    color: rgb(231, 162, 34);
+    text-shadow: black 0 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: small;
+    text-align: center;
+}
