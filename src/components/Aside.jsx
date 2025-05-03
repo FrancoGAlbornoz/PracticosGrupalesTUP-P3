@@ -4,7 +4,7 @@ import '../styles/aside.css'
 
 const Aside = () => {
   return (
-    <Container>
+    <Container  className="my-4" >
       <Row className='row'>
         <Col className='col aside'>
         <div className='decoaside'>

@@ -11,16 +11,27 @@ h4{
 
 }
 
+.row {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
 
 .textoaside {
     text-align: center;
+    color: white;
+}
+
+.spanaside {
+    text-decoration: underline;
+    font-weight: bolder;
 }
 
 .aside {
     width: 25%;
 
 }
-
 .decoaside {
     border: dashed 4px red;
     border-style: dashed dotted solid none;
