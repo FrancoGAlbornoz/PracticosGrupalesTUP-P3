@@ -1,9 +1,9 @@
-  /* Asegura que el div que contiene el mapa ocupe el espacio necesario sin dejar espacios innecesarios */
-  footer {
-    margin: 0;         /* Elimina los márgenes predeterminados */
-    padding: 0;        /* Elimina el padding adicional */
-    height: auto;      /* Asegura que el pie de página ocupe solo el espacio necesario */
-    width: 100%;       /* Asegura que el pie de página ocupe todo el ancho disponible */
+
+footer {
+    margin: 0;         
+    padding: 0;        
+    height: auto;    
+    width: 100%;       
 }
 
 
@@ -13,7 +13,6 @@
     text-align: center;
     color: blue;
     text-shadow: 0 1px white;
-    margin-bottom: 0;  /* Elimina el margen inferior que podría estar causando el espacio */
-    padding: 0;  /* Elimina cualquier padding que podría estar causando un espacio extra */
+    margin-bottom: 0; 
+    padding: 0; 
 }
-  

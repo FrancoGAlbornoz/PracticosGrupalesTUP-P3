@@ -18,7 +18,7 @@ const Aside = () => {
             </p>
             <br />
             <p className='textoaside'>
-              <ol>
+
                 <li>
                   <span className="spanaside">Lenguaje de bajo nivel:</span> Están más cerca del lenguaje máquina y permiten un control más directo sobre el hardware. Ejemplos incluyen el ensamblador y el lenguaje de máquina. Estos lenguajes son muy eficientes, pero también más difíciles de aprender y usar.
                 </li>
@@ -31,7 +31,7 @@ const Aside = () => {
                 <li>
                   <span className="spanaside">Lenguajes interpretados:</span> Estos lenguajes son ejecutados directamente por un intérprete, sin necesidad de compilación previa. Ejemplos incluyen Python y JavaScript. La interpretación puede hacer que el desarrollo sea más ágil, aunque a menudo puede ser menos eficiente en términos de velocidad de ejecución.
                 </li>
-              </ol>
+
             </p>
 
           </aside>
