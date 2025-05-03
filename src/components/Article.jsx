@@ -4,7 +4,7 @@ import {Container, Row, Col} from 'react-bootstrap'
 const Article = ({datos}) => {
 
   return (
-      <Container style={{ width: '75%' }} className="my-4">
+      <Container className="my-4">
       <Row>
         {datos.map(dato => (
           <Col key={dato.id} xs={12} sm={6} md={4} className="mb-4">
