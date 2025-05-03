@@ -2,6 +2,15 @@ h4{
     color: orange;
 }
 
+.h2Titulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+    font-weight: bolder;
+    text-align: center;
+    text-shadow: 1px 1px white;
+
+}
+
 
 .textoaside {
     text-align: center;
@@ -16,9 +25,8 @@ h4{
     border: dashed 4px red;
     border-style: dashed dotted solid none;
     padding: 20px 20px 5px 20px;
-    height: 620px;
-
 }
+
 
 .h2aside {
     text-align: center;

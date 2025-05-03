@@ -1,11 +1,13 @@
 import React from 'react'
 import Map from './Map'
+import '../styles/footer.css'
 
 const Footer = () => {
   return (
-    <div>
+    <footer>
+      <h3 className='h3pie'>Universidad Tecnologica Nacional Facultad Regional Tucuman</h3>
       <Map/>
-    </div>
+    </footer>
   )
 }
 

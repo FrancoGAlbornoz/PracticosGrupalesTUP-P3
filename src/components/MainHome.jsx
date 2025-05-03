@@ -7,23 +7,25 @@ import '../styles/main.css'
 
 const MainHome = ({datos}) => {
   return (
-    <Container className="mt-4 mr-0">
+    <div className='homemain'>
+    <h2 className="h2Titulo">Lenguajes de Programación</h2>
+      <Container className="m-0">
       <Row>
         <Col  xs={12} md={4} lg={3}>
           <Aside />
         </Col>
-        <Col xs={12} md={8} lg={9} className="mt-4 m-0">
+        <Col xs={12} md={8} lg={9}>
           <Article datos={datos}/>
         </Col>
       </Row>
-
-      {/* Fila nueva con LangTable abajo de todo */}
       <Row>
         <Col>
           <LangTable />
         </Col>
       </Row>
     </Container>
+    </div>
+
   )
 }
 

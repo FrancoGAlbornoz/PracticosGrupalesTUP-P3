@@ -1,0 +1,33 @@
+.header {
+  background-image: url('https://loopgk.com/wp-content/uploads/2021/02/lenguaje-min.jpg');
+  background-size: cover;
+  background-position: center;
+  color: blue;
+  text-align: center;
+  padding: 60px 20px 20px 20px;
+  position: relative;
+  margin: 0;
+  text-shadow: 2px 2px 4px white;
+}
+
+.title {
+  color: blue;
+    /* Asegurándote de la sombra */
+}
+
+.subheader {
+  color: blue;
+  text-shadow: 1px 1px 3px white;  /* Asegurándote de la sombra */
+}
+
+.header-content h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 4px black;  /* Asegurándote de la sombra */
+}
+
+.header-content h3 {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  text-shadow: 1px 1px 3px black;  /* Asegurándote de la sombra */
+}

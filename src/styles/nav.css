@@ -1,8 +1,19 @@
-ul{
+.nav {
+    background-color: #87cefa;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
     display: flex;
-    justify-content: flex-start;
-}
-
-.header{
-    background-image: "https://loopgk.com/wp-content/uploads/2021/02/lenguaje-min.jpg";
-}
+    gap: 15px;
+  }
+  
+  .nav li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+  }
